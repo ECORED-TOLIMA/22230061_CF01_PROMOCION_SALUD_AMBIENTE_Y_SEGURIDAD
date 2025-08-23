@@ -339,6 +339,11 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',

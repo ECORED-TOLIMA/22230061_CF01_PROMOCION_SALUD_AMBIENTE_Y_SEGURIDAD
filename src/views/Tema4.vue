@@ -7,33 +7,28 @@
         span 4
       h1 Valoración y clasificación de riesgos ambientales
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12
-        .row.justify-content-center.align-items-center
-          .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-0
-            p La valoración de riesgos ambientales es un proceso técnico y metodológico que permite identificar, clasificar y priorizar las amenazas que pueden afectar la salud de las personas y la integridad de los ecosistemas en un territorio determinado. Este análisis constituye una herramienta fundamental para establecer el nivel de amenaza ambiental y sanitaria, y se convierte en un insumo clave para la planificación de acciones preventivas, la gestión integral del riesgo y la toma de decisiones coordinadas entre diferentes sectores.
-            .tarjeta.tarjeta--BGC01.p-1
-              .col-12.mb-0.order-lg-1.order-2.mb-lg-0.p-4
-                p.mb-0 El riesgo ambiental se entiende como la probabilidad de que un factor o evento adverso, ya sea de origen químico, físico, biológico o social, genere un efecto negativo sobre la salud humana o sobre el equilibrio de los ecosistemas. Su valoración no se limita a una observación cualitativa, sino que requiere la aplicación de métodos sistemáticos que incorporan indicadores, matrices de evaluación y escalas de medición. Estos instrumentos permiten estimar tanto la probabilidad de ocurrencia como la magnitud y severidad de las consecuencias.
-
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema4/img-01.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-8.order-2
+        p La valoración de riesgos ambientales es un proceso técnico y metodológico que permite identificar, clasificar y priorizar las amenazas que pueden afectar la salud de las personas y la integridad de los ecosistemas en un territorio determinado. Este análisis constituye una herramienta fundamental para establecer el nivel de amenaza ambiental y sanitaria, y se convierte en un insumo clave para la planificación de acciones preventivas, la gestión integral del riesgo y la toma de decisiones coordinadas entre diferentes sectores.
+        .tarjeta.tarjeta--BGC01.p-4
+          p.mb-0 El riesgo ambiental se entiende como la probabilidad de que un factor o evento adverso, ya sea de origen químico, físico, biológico o social, genere un efecto negativo sobre la salud humana o sobre el equilibrio de los ecosistemas. Su valoración no se limita a una observación cualitativa, sino que requiere la aplicación de métodos sistemáticos que incorporan indicadores, matrices de evaluación y escalas de medición. Estos instrumentos permiten estimar tanto la probabilidad de ocurrencia como la magnitud y severidad de las consecuencias.
+      .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema4/img-01.png', alt='Imagen decorativa')
     
-    .row.mb-0(data-aos="fade-down")
+    .row.mb-4(data-aos="fade-left")
       .col-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema1/icono.svg' alt="Imagen decorativa")
-      .col-11.mb-3
+          img(src='@/assets/curso/temas/tema4/img-15.svg' alt="Imagen decorativa")
+      .col-11
         p.mb-0 La clasificación del riesgo se realiza generalmente a partir de criterios como el tipo de amenaza, el grado de vulnerabilidad de la población o del ecosistema expuesto, y la capacidad de respuesta disponible. Este enfoque facilita la priorización de intervenciones, optimiza el uso de recursos y orienta la formulación de políticas y planes de manejo ambiental basados en evidencia.
 
     Separador
-
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Escalas de valoración de riesgos
 
-    p(data-aos="fade-down") Las escalas de valoración son herramientas esenciales en la gestión del riesgo ambiental porque permiten estandarizar y objetivar la evaluación de variables relacionadas con peligros ambientales y su impacto potencial en la salud y el entorno. Su función es transformar datos cualitativos o cuantitativos en categorías comparables, facilitando así la clasificación y priorización de riesgos de manera sistemática, transparente y replicable.
-    p.mb-5(data-aos="fade-down") En salud ambiental, estas escalas se utilizan para valorar factores como:  
+    p(data-aos="fade-left") Las escalas de valoración son herramientas esenciales en la gestión del riesgo ambiental porque permiten estandarizar y objetivar la evaluación de variables relacionadas con peligros ambientales y su impacto potencial en la salud y el entorno. Su función es transformar datos cualitativos o cuantitativos en categorías comparables, facilitando así la clasificación y priorización de riesgos de manera sistemática, transparente y replicable.
+    p.mb-5(data-aos="fade-left") En salud ambiental, estas escalas se utilizan para valorar factores como:  
     
     .row.justify-content-center.mb-4
       .col-lg-5.mb-4(data-aos="zoom-in-up")
@@ -143,7 +138,7 @@
 
     Separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Aplicación de matrices de riesgo
 
     p.mb-5(data-aos="fade-down") Las matrices de riesgo son herramientas clave en la gestión de riesgos ambientales. Su objetivo es clasificar los riesgos identificados a partir de dos variables principales:
@@ -298,9 +293,9 @@
         .bg-color-2.px-4.py-4.mb-4
           .row.justify-content-center.align-items-center
             .col
-              p.mb-0(data-aos="fade-up") Probabilidad: Alta (3) → vectores presentes de forma constante.
-              p.mb-0(data-aos="fade-up")  Impacto: Alto (3) → población infantil en riesgo.
-              p.mb-0(data-aos="fade-up")  Nivel de riesgo: 3 x 3 = 9 → Riesgo Muy Alto.
+              p.mb-0(data-aos="fade-left") #[strong Probabilidad:] Alta (3) → vectores presentes de forma constante.
+              p.mb-0(data-aos="fade-left") #[strong Impacto:] Alto (3) → población infantil en riesgo.
+              p.mb-0(data-aos="fade-left") #[strong Nivel de riesgo:] 3 x 3 = 9 → Riesgo Muy Alto.
 
       .col-lg-5(data-aos="fade-left")
         p.mb-3 En este caso, las medidas a implementar serían:
@@ -330,7 +325,7 @@
 
     Separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.3 Elaboración de mapas de riesgo
 
     .row.justify-content-center.mb-4
@@ -359,46 +354,45 @@
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
                 | Comunidades sin acceso a servicios básicos, que enfrentan riesgos múltiples y simultáneos.
-
-      .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema4/img-11.svg' alt="Imagen decorativa")
 
-    p.mb-4(data-aos="fade-down") Para su elaboración pueden utilizarse diversas fuentes de información:
+    p(data-aos="fade-down") Para su elaboración pueden utilizarse diversas fuentes de información:
 
     .row.mb-4(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#E0F6E1")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema4/icono-10.svg' alt="Imagen decorativa")
-        p.text-center Resultados de diagnósticos participativos y observación directa (como mapas parlantes o transectos comunitarios).
+        p.text-center.mb-0 Resultados de diagnósticos participativos y observación directa (como mapas parlantes o transectos comunitarios).
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#CCD9F8")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema4/icono-11.svg' alt="Imagen decorativa")
-        p.text-center Registros institucionales de salud y ambiente (SIVIGILA, IDEAM, alcaldías, CAR, etc.).
+        p.text-center.mb-0 Registros institucionales de salud y ambiente (SIVIGILA, IDEAM, alcaldías, CAR, etc.).
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#E0F6E1")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema4/icono-12.svg' alt="Imagen decorativa")
-        p.text-center Imágenes satelitales, fotografías aéreas o cartografía oficial (IGAC, SIGOT, etc.).
+        p.text-center.mb-0 Imágenes satelitales, fotografías aéreas o cartografía oficial (IGAC, SIGOT, etc.).
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#CCD9F8")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema4/icono-13.svg' alt="Imagen decorativa")
-        p.text-center Información local aportada por la comunidad y actores del territorio.
+        p.text-center.mb-0 Información local aportada por la comunidad y actores del territorio.
 
     p(data-aos="fade-down") Los mapas de riesgo participativos tienen un valor pedagógico y político especial: permiten que la comunidad reconozca su territorio, identifique amenazas, priorice acciones y exija respuestas institucionales. Pueden elaborarse de manera análoga (en cartulina, con símbolos y leyendas locales) o digital, empleando herramientas como Google Earth, QGIS, la plataforma “Mapa Participativo Colombia” del DNP, o los SIG municipales.
     p.mb-4(data-aos="fade-down") Ejemplo práctico:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-lg-10.col-12
-        .row.justify-content-center.align-items-center.tarjeta.tarjeta--BGC01
-          .col-lg-7.col-12.mb-md-0.mb-lg-0.mb-3.p-4.px-5
-            p En una comunidad periurbana, el equipo de salud ambiental, junto con líderes locales, elabora un mapa de riesgo que identifica:
-            ul.lista-ul--color.mt-2
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-10
+        .row.justify-content-center.align-items-center.tarjeta.tarjeta--BGC01.p-4
+          p En una comunidad periurbana, el equipo de salud ambiental, junto con líderes locales, elabora un mapa de riesgo que identifica:
+          .col-lg-8
+            ul.lista-ul--color
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
                 | Tres puntos críticos de acumulación de basuras a cielo abierto.
@@ -414,7 +408,6 @@
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
                 | Presencia de criaderos de zancudos en patios de viviendas sin control.
-        
             p Este mapa se socializa en una mesa intersectorial y se convierte en insumo para:
             ul.lista-ul--color.mt-2
               li.d-flex.align-items-start.mb-0
@@ -428,17 +421,15 @@
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
                 | Diseñar campañas educativas con las familias.
-
-          .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+          .col-lg-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema4/img-12.svg', alt='Imagen decorativa')
+              img.mx-auto(src='@/assets/curso/temas/tema4/img-12.svg', alt='Imagen decorativa')
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-12
         .row.justify-content-center
           .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
             p En Colombia, el uso de mapas de riesgo está contemplado en los lineamientos del Sistema Nacional de Gestión del Riesgo de Desastres (SNGRD) y se integra en los Planes Territoriales de Salud Ambiental, PGIRS y ejercicios de planeación participativa. Además, es una herramienta clave en los procesos formativos del SENA para fortalecer las capacidades comunitarias en diagnóstico y gestión ambiental. Para su elaboración, se pueden emplear diversas herramientas, tanto digitales como analógicas, que facilitan la recolección, organización y visualización de la información:
-
           .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema4/img-13.png', alt='Imagen decorativa')

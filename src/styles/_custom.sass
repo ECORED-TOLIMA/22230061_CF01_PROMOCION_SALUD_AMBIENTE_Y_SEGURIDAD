@@ -22,29 +22,30 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/fondo-paginas.png") !important
 
+.banner-principal__row .banner-principal__img
+  width: 36%
+
 //- tarjetas cambio de color HOVER
+.bg-c1, .bg-2, .bg-3, .tarjeta--BG01
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.bg-c1, .bg-2, .bg-3
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
 .bg
   &-c1
-    background-image: url(../assets/curso/temas/tema1/bg1.png)
-    background-repeat: no-repeat
-    background-size: cover
-    margin-inline: -3.2rem !important
+    background: linear-gradient(to bottom, #FFF, #ECF1FC, #FFF)
   &-2
     background-image: url(../assets/curso/temas/tema3/fondo-slyder.png)
-    background-repeat: no-repeat
-    background-size: cover
-    margin-inline: -3.2rem !important
   &-3
     background-image: url(../assets/curso/temas/tema4/fondo-panel.png)
-    background-repeat: no-repeat
-    background-size: cover
-    margin-inline: -3.2rem !important
 
 .tarjeta--BG01
   background-image: url("../assets/curso/temas/tema1/BG01.png")
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center
 
 .fa-chevron-right, .fa-chevron-left
   color: #FFA239
@@ -201,4 +202,5 @@ $custom-card-img-height: 256px
     border-top-left-radius: $custom-card-border-radius
     border-top-right-radius: $custom-card-border-radius
 
-
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
