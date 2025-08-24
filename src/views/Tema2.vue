@@ -48,7 +48,7 @@
           .tarjeta.tarjeta--BG01.p-4
             .row.justify-content-center.mb-3
               .col-lg-5.col-sm-4.col-6
-                img(src='@/assets/curso/temas/tema1/icono-04.svg' alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema2/icono-04.svg' alt='Imagen decorativa')
             h4.text-center Condiciones laborales precarias
             p.mb-0 Ambientes laborales sin control de riesgos ocupacionales pueden generar lesiones, fatiga crónica o exposición a sustancias peligrosas.
 
@@ -90,17 +90,17 @@
                 th(style="background-color: #E0F6E1") Posible consecuencia en salud
             tbody
               tr(data-aos="fade-right")
-                td.text-center Contaminación del agua.
-                td.text-center Enfermedades diarreicas agudas.
+                td Contaminación del agua.
+                td Enfermedades diarreicas agudas.
               tr(data-aos="fade-right")
-                td.text-center Vivienda precaria.
-                td.text-center Infecciones respiratorias agudas.
+                td Vivienda precaria.
+                td Infecciones respiratorias agudas.
               tr(data-aos="fade-right")
-                td.text-center Baja escolaridad.
-                td.text-center Menor acceso a información sobre autocuidado.
+                td Baja escolaridad.
+                td Menor acceso a información sobre autocuidado.
               tr(data-aos="fade-right")
-                td.text-center Trabajo informal.
-                td.text-center Mayor exposición a riesgos sin protección social.
+                td Trabajo informal.
+                td Mayor exposición a riesgos sin protección social.
         
         .row.mb-4(data-aos="fade-right")  
           .col-1.d-none.d-lg-block

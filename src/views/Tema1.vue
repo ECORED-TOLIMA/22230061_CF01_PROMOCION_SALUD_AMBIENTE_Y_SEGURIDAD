@@ -13,9 +13,9 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p La Organización Mundial de la Salud (OMS) define la salud ambiental como “aquellos aspectos de la salud humana, incluida la calidad de vida, que están determinados por factores físicos, químicos, biológicos, sociales y psicosociales del ambiente”. Esta definición destaca que los riesgos ambientales no se limitan a contaminantes visibles, sino que también incluyen condiciones estructurales, sociales y culturales que, desde el entorno, pueden comprometer la salud de los individuos y las comunidades.
         .row.justify-content-center.align-items-center
-          .col-lg-1.d-lg-flex.d-none
+          .col-lg-2.d-lg-flex.d-none
             img.mx-auto(src='@/assets/curso/temas/tema1/icono.svg' alt="Imagen decorativa")
-          .col-lg-11
+          .col-lg-10
             p.mb-0 La normativa en salud ambiental en Colombia establece lineamientos para la identificación, control y vigilancia de estos riesgos, promoviendo entornos saludables y la corresponsabilidad de los actores sociales e institucionales en la gestión del ambiente.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-01.svg' alt="Imagen decorativa")
@@ -26,7 +26,7 @@
       h2 1.1 Factores de riesgo en el entorno comunitario
 
     p(data-aos="fade-right") Un factor de riesgo es cualquier característica, condición o exposición del individuo o del entorno que incrementa la probabilidad de desarrollar una enfermedad o sufrir un daño a la salud. En el ámbito de la salud ambiental, estos factores están asociados a condiciones físicas, químicas, biológicas o sociales presentes en el entorno que pueden afectar negativamente el bienestar de las personas y las comunidades.
-    p.mb-5(data-aos="fade-right") En el contexto colombiano, los factores de riesgo ambiental son múltiples y presentan una distribución desigual, reflejo de las profundas inequidades territoriales y sociales. Entre los más frecuentes se destacan:
+    p.mb-4(data-aos="fade-right") En el contexto colombiano, los factores de riesgo ambiental son múltiples y presentan una distribución desigual, reflejo de las profundas inequidades territoriales y sociales. Entre los más frecuentes se destacan:
 
     .bg-c1.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="fade-left")

@@ -249,7 +249,7 @@
               tr(data-aos="fade-right")
                 td Alta.
                 td Se presenta con frecuencia.
-                td.text-center 1
+                td.text-center 3
               tr(data-aos="fade-right")
                 td Media.
                 td Se presenta ocasionalmente.
@@ -257,7 +257,7 @@
               tr(data-aos="fade-right")
                 td Baja.
                 td Se presenta rara vez.
-                td.text-center 3
+                td.text-center 1
 
     p.mb-4(data-aos="fade-down") El siguiente paso es determinar el nivel de afectación que tendría el evento:
 
@@ -293,7 +293,7 @@
         .bg-color-2.px-4.py-4.mb-4
           .row.justify-content-center.align-items-center
             .col
-              p.mb-0(data-aos="fade-left") #[strong Probabilidad:] Alta (3) → vectores presentes de forma constante.
+              p.mb-0(data-aos="fade-left") #[strong Probabilidad: Alta] (3) → vectores presentes de forma constante.
               p.mb-0(data-aos="fade-left") #[strong Impacto:] Alto (3) → población infantil en riesgo.
               p.mb-0(data-aos="fade-left") #[strong Nivel de riesgo:] 3 x 3 = 9 → Riesgo Muy Alto.
 

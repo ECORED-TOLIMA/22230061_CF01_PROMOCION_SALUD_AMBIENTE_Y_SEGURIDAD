@@ -21,7 +21,7 @@
               p.mb-0 Este componente formativo tiene como propósito fortalecer la capacidad para diagnosticar riesgos ambientales y sanitarios presentes en el territorio, a través de la identificación de factores críticos, el análisis de las condiciones de vida y la aplicación de herramientas técnicas y metodologías participativas. Para ello, se abordan conceptos como salud ambiental, normativa vigente, determinantes sociales y técnicas de diagnóstico comunitario.
       .col-lg-3.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/temas/introduccion/img-02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/introduccion/img-02.png', alt='Imagen decorativa')
     
     p.mb-5(data-aos="fade-left") A partir de este proceso, los aprendices desarrollan habilidades para recolectar, organizar e interpretar información, aplicar escalas de valoración y clasificar riesgos mediante matrices. Esta formación contribuye a una comprensión integral del entorno y a la toma de decisiones informadas en salud pública desde un enfoque participativo y contextualizado. Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
 

@@ -21,44 +21,44 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-01.png', alt='Imagen decorativa')
 
-    p(data-aos="fade-right") Etapas comunes de un diagnóstico participativo:
+    p.mb-4(data-aos="fade-right") Etapas comunes de un diagnóstico participativo:
 
     .row.align-items-center.mb-5
       .col-lg-8          
-        .row.r8.bg-17.p-2.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
-            p Identificación del territorio y delimitación del área de intervención.
-        .row.r8.bg-18.p-2.align-items-center.mb-2(data-aos="fade-down")
+            p.mb-0 Identificación del territorio y delimitación del área de intervención.
+        .row.r8.bg-18.p-1.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
-            p Reconocimiento de actores locales, incluyendo líderes comunitarios, instituciones, organizaciones sociales y población en general.
-        .row.r8.bg-17.p-2.align-items-center.mb-2(data-aos="fade-down")
+            p.mb-0 Reconocimiento de actores locales, incluyendo líderes comunitarios, instituciones, organizaciones sociales y población en general.
+        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-04.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
-            p Recolección de información a través de herramientas como mapas parlantes, líneas de tiempo, observación directa, encuestas, entrevistas y grupos focales.
-        .row.r8.bg-18.p-2.align-items-center.mb-2(data-aos="fade-down")
+            p.mb-0 Recolección de información a través de herramientas como mapas parlantes, líneas de tiempo, observación directa, encuestas, entrevistas y grupos focales.
+        .row.r8.bg-18.p-1.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-05.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
-            p Análisis colectivo de la información para identificar factores de riesgo, prioridades y necesidades en salud ambiental.
-        .row.r8.bg-17.p-2.align-items-center.mb-2(data-aos="fade-down")
+            p.mb-0 Análisis colectivo de la información para identificar factores de riesgo, prioridades y necesidades en salud ambiental.
+        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-06.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
-            p Formulación de propuestas para el manejo, mitigación o eliminación de riesgos identificados.
+            p.mb-0 Formulación de propuestas para el manejo, mitigación o eliminación de riesgos identificados.
 
       .col-lg-4.d-lg-block.d-none(data-aos="fade-down")
         figure
-          img(src='@/assets/curso/temas/tema3/img-02.svg', alt='', style="width: 400px").m-auto
+          img(src='@/assets/curso/temas/tema3/img-02.png', alt='', style="width: 400px").m-auto
 
     .row.mb-0(data-aos="fade-down")
       .col-1.d-none.d-lg-block
@@ -98,7 +98,7 @@
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Ejemplo
             tbody
               tr(data-aos="fade-right")
-                td.text-bold Educación.
+                td.text-bold Educación popular.
                 td Este principio promueve el intercambio horizontal de saberes entre profesionales y comunidades. No se impone conocimiento, sino que se construye colectivamente a partir de la experiencia vivida.
                 td En procesos de diagnóstico comunitario en zonas afectadas por contaminación minera en el sur de Bolívar, organizaciones sociales y profesionales de salud, utilizaron talleres lúdicos para identificar fuentes de exposición al mercurio, permitiendo a la comunidad proponer medidas de protección a partir de sus propias prácticas cotidianas.
               tr(data-aos="fade-right")
@@ -120,15 +120,34 @@
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 3.2 Principios del diagnóstico participativo en salud ambiental
+      h2 3.2 Técnicas aplicadas
 
     p.mb-5(data-aos="fade-down") El diagnóstico participativo en salud ambiental emplea múltiples técnicas adaptadas al contexto cultural, territorial y social de las comunidades. Estas herramientas permiten reconocer los saberes locales, fomentar la reflexión colectiva y generar insumos para la toma de decisiones concertadas. A continuación, se describen algunas de las más utilizadas en Colombia:
+    
+    .tarjeta--BG043.p-4.px-lg-5.mb-4
+      .tarjeta.tarjeta--BG04.p-4.mb-5
+        PasosB.color-acento-botones
+          .row(titulo="")
+            .col-md-9.mb-4.mb-md-0
+              p
+                b Mapas parlantes
+              p.mb-3 Son herramientas gráficas construidas colectivamente por los habitantes de una comunidad. Representan el territorio desde la percepción local, señalando elementos relevantes en lo ambiental, social y sanitario. Se denominan “parlantes” porque cada símbolo, trazo o color refleja un significado acordado por quienes los elaboran, convirtiendo el mapa en un relato visual del entorno. Durante su construcción pueden identificarse:
+              ul.lista-ul--color.mt-2
+                li.d-flex.align-items-start
+                  i.fas.fa-leaf
+                  | #[b Zonas de riesgo: ] botaderos improvisados, canales contaminados, viviendas en zonas de deslizamiento, criaderos de vectores, entre otros.
+                
+                li.d-flex.align-items-start
+                  i.fas.fa-leaf
+                  | #[b Recursos valiosos: ] nacimientos de agua, áreas verdes, senderos ecológicos, árboles patrimoniales o sitios culturales. 
 
-    .bg-2.mb-5.p-lg-5.p-4
-      .tarjeta.tarjeta--gris.p-5(style='background-color:#FFFFFF !important')(data-aos="fade-down")
-        PasosB.color-secundario
-          .row.p-4(titulo="")
-            .col-md-12.mb-4.mb-md-0
+              p Los mapas parlantes no requieren conocimientos técnicos, y su gran fortaleza radica en que visibilizan lo que para la comunidad es prioritario. Pueden complementarse con sistemas de información geográfica (SIG) o imágenes satelitales para su integración con herramientas institucionales. En Colombia, han sido ampliamente utilizados en procesos liderados por organizaciones comunitarias, alcaldías, los Planes de Intervenciones Colectivas (PIC), el SENA, el Instituto Nacional de Salud y ejercicios de ordenamiento territorial participativo.
+            .col-md-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img-08.png', alt='Texto que describa la imagen')
+
+          .row(titulo="")
+            .col-md-9.mb-4.mb-md-0
               p
                 b Transectos ambientales	
               p.mb-3 Consisten en recorridos planificados por distintas zonas del territorio, con participación de la comunidad y actores técnicos, para observar directamente condiciones ambientales y de salud. Durante el recorrido se identifican aspectos como:
@@ -154,27 +173,16 @@
                   | Condiciones del suelo, arborización y acceso a espacios verdes.
 
               p Los hallazgos se registran mediante fichas, fotografías, mapas o videos, y posteriormente se analizan en conjunto para priorizar acciones. Esta técnica ayuda a visibilizar situaciones normalizadas (por ejemplo, aguas estancadas o basureros informales) y promueve el diálogo entre saberes locales y técnicos. En Colombia, ha sido implementada en diagnósticos territoriales de salud pública, proyectos de saneamiento básico rural y estrategias intersectoriales de desarrollo local. 
+            
+            .col-md-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img-09.png', alt='Texto que describa la imagen')
 
-          .row.p-4(titulo="")
-            .col-md-12.mb-4.mb-md-0
-              p
-                b Mapas parlantes
-              p.mb-3 Son herramientas gráficas construidas colectivamente por los habitantes de una comunidad. Representan el territorio desde la percepción local, señalando elementos relevantes en lo ambiental, social y sanitario. Se denominan “parlantes” porque cada símbolo, trazo o color refleja un significado acordado por quienes los elaboran, convirtiendo el mapa en un relato visual del entorno. Durante su construcción pueden identificarse:
-              ul.lista-ul--color.mt-2
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | #[b Zonas de riesgo:] botaderos improvisados, canales contaminados, viviendas en zonas de deslizamiento, criaderos de vectores, entre otros.
-                
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | #[b Recursos valiosos:] nacimientos de agua, áreas verdes, senderos ecológicos, árboles patrimoniales o sitios culturales. 
-
-              p Los mapas parlantes no requieren conocimientos técnicos, y su gran fortaleza radica en que visibilizan lo que para la comunidad es prioritario. Pueden complementarse con sistemas de información geográfica (SIG) o imágenes satelitales para su integración con herramientas institucionales. En Colombia, han sido ampliamente utilizados en procesos liderados por organizaciones comunitarias, alcaldías, los Planes de Intervenciones Colectivas (PIC), el SENA, el Instituto Nacional de Salud y ejercicios de ordenamiento territorial participativo.
-
-          .row.p-4(titulo="")
-            p #[strong Entrevistas semiestructuradas]
-            p.mb-3 Son una herramienta cualitativa que recoge testimonios, percepciones y experiencias sobre el entorno y sus problemáticas. Se desarrollan a partir de una guía flexible de preguntas abiertas, permitiendo profundizar en temas relevantes que surjan durante el diálogo. Se aplican a diversos actores:
-            .col-lg-7.order-lg-1.order-2         
+          .row(titulo="")
+            .col-md-9.mb-4.mb-md-0
+              p 
+                b Entrevistas semiestructuradas
+              p.mb-3 Son una herramienta cualitativa que recoge testimonios, percepciones y experiencias sobre el entorno y sus problemáticas. Se desarrollan a partir de una guía flexible de preguntas abiertas, permitiendo profundizar en temas relevantes que surjan durante el diálogo. Se aplican a diversos actores:     
               ul.lista-ul--color
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
@@ -184,60 +192,65 @@
                   i.fas.fa-leaf
                   | Funcionarios locales (salud, ambiente, servicios públicos).
 
-                li.d-flex.align-items-start
+                li.d-flex.align-items-start.mb-3
                   i.fas.fa-leaf
                   | Habitantes de la zona (jóvenes, mujeres, adultos mayores, campesinos)
-              p.mb-3 Temas explorados:
-              ul.lista-ul--color
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Percepciones sobre riesgos ambientales.
+                p.mb-3 Temas explorados:
+                ul.lista-ul--color
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Percepciones sobre riesgos ambientales.
 
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Hábitos y prácticas comunitarias frente a salud y ambiente.
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Hábitos y prácticas comunitarias frente a salud y ambiente.
 
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Relación con instituciones, participación social y propuestas de mejora.
-              p.mb-0 En Colombia, esta técnica es común en proyectos del Ministerio de Salud, Instituto Nacional de Salud, estrategias PIC y procesos liderados por el SENA.
-            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Relación con instituciones, participación social y propuestas de mejora.
+                p.mb-0 En Colombia, esta técnica es común en proyectos del Ministerio de Salud, Instituto Nacional de Salud, estrategias PIC y procesos liderados por el SENA.
+              
+            .col-md-3
               figure
-                img(src='@/assets/curso/temas/tema3/img-04.png')
+                img(src='@/assets/curso/temas/tema3/img-10.png', alt='Texto que describa la imagen')
 
-          .row.p-4(titulo="")
-            p #[strong Talleres participativos y mesas comunitarias]
-            p.mb-3 Estos espacios permiten la deliberación colectiva entre comunidad e instituciones para analizar problemas, construir propuestas y fomentar el empoderamiento social. Incluyen metodologías activas como:
-            .col-lg-7.order-lg-1.order-2
+          .row(titulo="")
+            .col-md-9.mb-4.mb-md-0
+              p 
+                b Talleres participativos y mesas comunitarias
+              p.mb-3 Estos espacios permiten la deliberación colectiva entre comunidad e instituciones para analizar problemas, construir propuestas y fomentar el empoderamiento social. Incluyen metodologías activas como:
               ul.lista-ul--color
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
                   | Lluvias de ideas, mapas colectivos, líneas de tiempo.
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
-                  | Definir la misión, visión y objetivos que guiarán a la futura asociación.
+                  | Trabajo por grupos, priorización de problemas y elaboración de acuerdos.
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
-                  | Identificar las actividades productivas, comerciales o sociales que se impulsarán en la primera etapa.
-              p.mb-3 En salud ambiental, se emplean para:
-              ul.lista-ul--color
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Socializar y validar diagnósticos.
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Identificar riesgos y priorizar intervenciones.
-                li.d-flex.align-items-start
-                  i.fas.fa-leaf
-                  | Establecer compromisos y fortalecer la vigilancia comunitaria.
-              p.mb-0 En Colombia, han sido integrados en estrategias del PIC, programas del Ministerio de Salud, planes de gestión del riesgo y mesas de salud ambiental, respaldados por normativas como la Ley 134 de 1994 y la Ley 1757 de 2015.
-            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+                  | Plenarias de validación de resultados.
+                p.mb-3 En salud ambiental, se emplean para:
+                ul.lista-ul--color
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Socializar y validar diagnósticos.
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Identificar riesgos y priorizar intervenciones.
+                  li.d-flex.align-items-start
+                    i.fas.fa-leaf
+                    | Establecer compromisos y fortalecer la vigilancia comunitaria.
+                p.mb-0 En Colombia, han sido integrados en estrategias del PIC, programas del Ministerio de Salud, planes de gestión del riesgo y mesas de salud ambiental, respaldados por normativas como la Ley 134 de 1994 y la Ley 1757 de 2015.
+              
+            .col-md-3
               figure
-                img(src='@/assets/curso/temas/tema3/img-05.png')
-          .row.p-4(titulo="")
-            p #[strong Observación directa]
-            p.mb-3 Es una técnica que permite documentar las condiciones reales del entorno mediante la experiencia directa del observador, con enfoque estructurado o no estructurado. Aspectos observables:
-            .col-lg-7.order-lg-1.order-2
+                img(src='@/assets/curso/temas/tema3/img-11.png', alt='Texto que describa la imagen')
+
+          .row(titulo="")
+            .col-md-9.mb-4.mb-md-0
+              p 
+                b Observación directa
+              p.mb-3 Es una técnica que permite documentar las condiciones reales del entorno mediante la experiencia directa del observador, con enfoque estructurado o no estructurado. Aspectos observables:
               ul.lista-ul--color
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
@@ -250,11 +263,12 @@
                   | Prácticas comunitarias de disposición de residuos o uso de agroquímicos.
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
-                  | Deterioro de zonas verdes, contaminación visual o auditiva.s.
-              p.mb-0 Es útil para complementar y validar otras técnicas como entrevistas o talleres, y ayuda a identificar riesgos naturalizados por la comunidad. En Colombia, se ha utilizado en procesos de inspección sanitaria, diagnósticos ambientales comunitarios y formación en salud pública territorial, con respaldo del Ministerio de Salud y el Instituto Nacional de Salud.
-            .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+                  | Deterioro de zonas verdes, contaminación visual o auditiva.
+                p.mb-0 Es útil para complementar y validar otras técnicas como entrevistas o talleres, y ayuda a identificar riesgos naturalizados por la comunidad. En Colombia, se ha utilizado en procesos de inspección sanitaria, diagnósticos ambientales comunitarios y formación en salud pública territorial, con respaldo del Ministerio de Salud y el Instituto Nacional de Salud.
+                
+            .col-md-3
               figure
-                img(src='@/assets/curso/temas/tema3/img-06.png')
+                img(src='@/assets/curso/temas/tema3/img-12.png', alt='Texto que describa la imagen')
 
     .row.mb-0(data-aos="fade-down")
       .col-1.d-none.d-lg-block
@@ -269,41 +283,46 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Organización e interpretación de la información recolectada
 
-    .row.justify-content-center.mb-5
-      .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
-        p(style="color:#000") La capacidad de organizar e interpretar la información es fundamental para responder de forma acertada ante situaciones reales. Este proceso no se limita a ordenar datos, sino que implica comprenderlos, compararlos y evaluarlos para orientar la elección más adecuada.
-        p(style="color:#000") Para lograrlo, se recomienda:
-        .tarjeta.tarjeta--BGC01.p-3.mb-4
-          .col.mb-0
-            ul.lista-ul--color.mt-2
-              li.d-flex.align-items-start
-                i.fas.fa-leaf
-                | Reunir la información relevante identificando datos que tengan relación directa con el problema o situación planteada.
+    .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
+      .col-12
+        .row.justify-content-center
+          .col-lg-9.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-3
+            p La capacidad de organizar e interpretar la información es fundamental para responder de forma acertada ante situaciones reales. Este proceso no se limita a ordenar datos, sino que implica comprenderlos, compararlos y evaluarlos para orientar la elección más adecuada.
+            p Para lograrlo, se recomienda:
+            .tarjeta.tarjeta--BGC02.p-3.mb-4(style="background-color:#E0F6E1")
+              .row.justify-content-center.align-items-center
+                .col-lg-12.col-12.mb-0.order-lg-2.order-2.mb-lg-0
+                  ul.lista-ul--color.mt-2.mb-0
+                    li.d-flex.align-items-start
+                      i.fas.fa-leaf
+                      | Reunir la información relevante identificando datos que tengan relación directa con el problema o situación planteada.
 
-              li.d-flex.align-items-start
-                i.fas.fa-leaf
-                | Clasificar y ordenar los datos utilizando tablas, diagramas o gráficos que faciliten su comprensión.
+                    li.d-flex.align-items-start
+                      i.fas.fa-leaf
+                      | Clasificar y ordenar los datos utilizando tablas, diagramas o gráficos que faciliten su comprensión.
 
-              li.d-flex.align-items-start
-                i.fas.fa-leaf
-                | Analizar las relaciones y patrones presentes en la información, reconociendo tendencias, cambios o valores atípicos.
-              
-              li.d-flex.align-items-start
-                i.fas.fa-leaf
-                | Interpretar los resultados de forma crítica, evaluando el significado de los datos y sus posibles implicaciones.
-              
-              li.d-flex.align-items-start
-                i.fas.fa-leaf
-                | Respaldar las decisiones con evidencias, asegurando que la elección final tenga fundamento en la información obtenida.
-
-        .row.justify-content-center.align-items-center
-          .col-lg-1.col-2.px-0.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema3/icono-08.svg' alt="Imagen decorativa")
-          .col-lg-11
-            p.mb-0(style="color:#000") En un contexto colombiano, por ejemplo, un emprendedor que quiera abrir un café en su barrio podría organizar información sobre el flujo peatonal, la competencia cercana y las preferencias de consumo. Luego, interpretaría esos datos para decidir la mejor ubicación y los productos más atractivos para su público objetivo.
-      
-      .col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema3/img-07.png' alt="Imagen decorativa")
+                    li.d-flex.align-items-start
+                      i.fas.fa-leaf
+                      | Analizar las relaciones y patrones presentes en la información, reconociendo tendencias, cambios o valores atípicos.
+                    
+                    li.d-flex.align-items-start
+                      i.fas.fa-leaf
+                      | Interpretar los resultados de forma crítica, evaluando el significado de los datos y sus posibles implicaciones.
+                    
+                    li.d-flex.align-items-start
+                      i.fas.fa-leaf
+                      | Respaldar las decisiones con evidencias, asegurando que la elección final tenga fundamento en la información obtenida.
+            
+            .row.justify-content-center
+              .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/tema3/icono-08.svg' alt="Imagen decorativa")
+              .col-lg-10.col-12.mb-3.order-lg-2.order-2.mb-lg-0
+                p En un contexto colombiano, por ejemplo, un emprendedor que quiera abrir un café en su barrio podría organizar información sobre el flujo peatonal, la competencia cercana y las preferencias de consumo. Luego, interpretaría esos datos para decidir la mejor ubicación y los productos más atractivos para su público objetivo.
+          
+          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img-07.png', alt='Imagen decorativa')
 
     .row.mb-0(data-aos="fade-down")
       .col-1.d-none.d-lg-block
@@ -325,14 +344,14 @@
                 th(style="background-color: #E0F6E1") Uso principal
             tbody
               tr(data-aos="fade-right")
-                td.text-center Hojas de cálculo (Excel y Google Sheets).
-                td.text-center Registro, organización y análisis de datos numéricos, creación de gráficos y tablas dinámicas.
+                td Hojas de cálculo (Excel y Google Sheets).
+                td Registro, organización y análisis de datos numéricos, creación de gráficos y tablas dinámicas.
               tr(data-aos="fade-right")
-                td.text-center #[em Software] de mapeo participativo (QGIS y Google My Maps).
-                td.text-center Representación geográfica de información, identificación de zonas críticas y análisis espacial.
+                td #[em Software] de mapeo participativo (QGIS y Google My Maps).
+                td Representación geográfica de información, identificación de zonas críticas y análisis espacial.
               tr(data-aos="fade-right")
-                td.text-center Diagramas de árbol.
-                td.text-center Análisis de causas y consecuencias de un problema, facilitando la identificación de relaciones y priorización de acciones.
+                td Diagramas de árbol.
+                td Análisis de causas y consecuencias de un problema, facilitando la identificación de relaciones y priorización de acciones.
 
 
 

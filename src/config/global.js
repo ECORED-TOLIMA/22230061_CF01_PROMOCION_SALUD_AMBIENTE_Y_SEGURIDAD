@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Riesgos ambientales y sanitarios en la comunidad',
     descripcionCurso:
       'Este componente aborda la identificación de factores de riesgo ambientales y sanitarios en la comunidad, a través del estudio de la salud ambiental, los determinantes sociales, las metodologías participativas y la valoración técnica de riesgos. Se promueve el análisis crítico del entorno para generar información útil en la toma de decisiones en salud pública.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
