@@ -135,11 +135,11 @@
               ul.lista-ul--color.mt-2
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
-                  | #[b Zonas de riesgo: ] botaderos improvisados, canales contaminados, viviendas en zonas de deslizamiento, criaderos de vectores, entre otros.
+                  span #[b Zonas de riesgo: ] botaderos improvisados, canales contaminados, viviendas en zonas de deslizamiento, criaderos de vectores, entre otros.
                 
                 li.d-flex.align-items-start
                   i.fas.fa-leaf
-                  | #[b Recursos valiosos: ] nacimientos de agua, áreas verdes, senderos ecológicos, árboles patrimoniales o sitios culturales. 
+                  span #[b Recursos valiosos: ] nacimientos de agua, áreas verdes, senderos ecológicos, árboles patrimoniales o sitios culturales. 
 
               p Los mapas parlantes no requieren conocimientos técnicos, y su gran fortaleza radica en que visibilizan lo que para la comunidad es prioritario. Pueden complementarse con sistemas de información geográfica (SIG) o imágenes satelitales para su integración con herramientas institucionales. En Colombia, han sido ampliamente utilizados en procesos liderados por organizaciones comunitarias, alcaldías, los Planes de Intervenciones Colectivas (PIC), el SENA, el Instituto Nacional de Salud y ejercicios de ordenamiento territorial participativo.
             .col-md-3
