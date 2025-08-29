@@ -390,8 +390,8 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center.tarjeta.tarjeta--BGC01.p-4
-          p En una comunidad periurbana, el equipo de salud ambiental, junto con líderes locales, elabora un mapa de riesgo que identifica:
-          .col-lg-8
+          .col-lg-7
+            p En una comunidad periurbana, el equipo de salud ambiental, junto con líderes locales, elabora un mapa de riesgo que identifica:
             ul.lista-ul--color
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-leaf
