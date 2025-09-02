@@ -130,35 +130,35 @@
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/icono-10.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#C2EDC3")
-            h4.text-center.mt-5.mb-0(style="color:#12263F") Resolución 1229 de 2013
-            p.text-center.mt-4.mb-0(style="color:#12263F") Emitida por el Ministerio de Salud y Protección Social, establece los requisitos para las actividades de inspección, vigilancia y control (IVC) en salud ambiental. Incluye criterios de evaluación de riesgos, seguimiento a condiciones sanitarias del entorno y acciones correctivas ante factores ambientales que afectan la salud.
+            h4.text-center.mt-5(style="color:#12263F") Resolución 1229 de 2013
+            p.text-center.mb-0(style="color:#12263F") Emitida por el Ministerio de Salud y Protección Social, establece los requisitos para las actividades de inspección, vigilancia y control (IVC) en salud ambiental. Incluye criterios de evaluación de riesgos, seguimiento a condiciones sanitarias del entorno y acciones correctivas ante factores ambientales que afectan la salud.
             
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/icono-11.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#C2EDC3")
-            h4.text-center.mt-5.mb-0(style="color:#12263F") Resolución 2063 de 2017
-            p.text-center.mt-4.mb-0(style="color:#12263F") Define procedimientos que deben seguir las entidades territoriales ante eventos ambientales que comprometan la salud pública (derrames, incendios, contaminación de agua o aire). Regula tiempos de respuesta y rutas de notificación a través del Sistema de Vigilancia en Salud Pública (Sivigila).
+            h4.text-center.mt-5(style="color:#12263F") Resolución 2063 de 2017
+            p.text-center.mb-0(style="color:#12263F") Define procedimientos que deben seguir las entidades territoriales ante eventos ambientales que comprometan la salud pública (derrames, incendios, contaminación de agua o aire). Regula tiempos de respuesta y rutas de notificación a través del Sistema de Vigilancia en Salud Pública (Sivigila).
 
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/icono-12.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#C2EDC3")
-            h4.text-center.mt-5.mb-0(style="color:#12263F") Decreto 351 de 2014
-            p.text-center.mt-4.mb-0(style="color:#12263F") Reglamenta el modelo de gestión integral del riesgo en salud pública. Establece las fases de identificación, análisis, monitoreo, evaluación y control de riesgos sanitarios, articulando vigilancia epidemiológica con factores ambientales.
+            h4.text-center.mt-5(style="color:#12263F") Decreto 351 de 2014
+            p.text-center.mb-0(style="color:#12263F") Reglamenta el modelo de gestión integral del riesgo en salud pública. Establece las fases de identificación, análisis, monitoreo, evaluación y control de riesgos sanitarios, articulando vigilancia epidemiológica con factores ambientales.
 
     p.mb-5(data-aos="fade-right") Las políticas públicas en salud ambiental articulan los esfuerzos intersectoriales para prevenir riesgos, promover entornos saludables y reducir las desigualdades territoriales. Documentos como la Política Nacional de Salud Ambiental y el Plan Decenal de Salud Pública orientan la acción colectiva con enfoque diferencial, participativo y territorial.
 
-    .row.justify-content-center.mb-4(data-aos="zoom-in-down") 
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down") 
       .col-lg-10.col-md-10.col-12
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/icono-13.svg' alt='')
           .tarjeta.color-primario(style="background-color:#CCD9F8")
             .p-4
-              p Política Nacional de Salud Ambiental (PNSA): adoptada en 2008 y actualizada en el Plan Decenal de Salud Pública (PDSP), promueve una gestión intersectorial de los riesgos, con enfoque diferencial, territorial y participativo. Estimula la formulación de planes territoriales, la comunicación del riesgo y la educación ambiental comunitaria.
+              p.mb-0 Política Nacional de Salud Ambiental (PNSA): adoptada en 2008 y actualizada en el Plan Decenal de Salud Pública (PDSP), promueve una gestión intersectorial de los riesgos, con enfoque diferencial, territorial y participativo. Estimula la formulación de planes territoriales, la comunicación del riesgo y la educación ambiental comunitaria.
 
-    p.mb-4(data-aos="fade-right") Existen también normas y herramientas técnicas que fortalecen la vigilancia ambiental y sanitaria desde diferentes sectores. Estas incluyen leyes estatutarias, normas técnicas del ICONTEC, y protocolos emitidos por entidades como el Instituto Nacional de Salud y el IDEAM, que apoyan la toma de decisiones basadas en evidencia y datos ambientales confiables:
+    p.mb-5(data-aos="fade-right") Existen también normas y herramientas técnicas que fortalecen la vigilancia ambiental y sanitaria desde diferentes sectores. Estas incluyen leyes estatutarias, normas técnicas del ICONTEC, y protocolos emitidos por entidades como el Instituto Nacional de Salud y el IDEAM, que apoyan la toma de decisiones basadas en evidencia y datos ambientales confiables:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0

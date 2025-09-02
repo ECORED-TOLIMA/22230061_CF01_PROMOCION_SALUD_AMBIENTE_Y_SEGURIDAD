@@ -7,10 +7,10 @@
         span 3
       h1 Diagnóstico participativo en salud ambiental
 
-    .row.justify-content-center.mb-3(data-aos="fade-left")
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-3
-        p.mb-4 El diagnóstico participativo en salud ambiental es un proceso metodológico que busca identificar y comprender los problemas ambientales que afectan la salud de una comunidad, a partir de la participación activa de sus integrantes. A diferencia de los diagnósticos tradicionales, este enfoque promueve el reconocimiento del conocimiento local, facilita la toma de decisiones compartidas y fortalece el empoderamiento comunitario.
-        .tarjeta.tarjeta--BGC02.p-3.mb-3(style="background-color:#E0F6E1; border-radius:none !important")
+        p El diagnóstico participativo en salud ambiental es un proceso metodológico que busca identificar y comprender los problemas ambientales que afectan la salud de una comunidad, a partir de la participación activa de sus integrantes. A diferencia de los diagnósticos tradicionales, este enfoque promueve el reconocimiento del conocimiento local, facilita la toma de decisiones compartidas y fortalece el empoderamiento comunitario.
+        .tarjeta.tarjeta--BGC02.p-4(style="background-color:#E0F6E1; border-radius:none !important")
           .row.justify-content-center
             .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
               figure
@@ -21,35 +21,35 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-01.png', alt='Imagen decorativa')
 
-    p.mb-4(data-aos="fade-right") Etapas comunes de un diagnóstico participativo:
+    p.mb-5(data-aos="fade-right") Etapas comunes de un diagnóstico participativo:
 
     .row.align-items-center.mb-5
       .col-lg-8          
-        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Identificación del territorio y delimitación del área de intervención.
-        .row.r8.bg-18.p-1.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Reconocimiento de actores locales, incluyendo líderes comunitarios, instituciones, organizaciones sociales y población en general.
-        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema3/icono-04.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Recolección de información a través de herramientas como mapas parlantes, líneas de tiempo, observación directa, encuestas, entrevistas y grupos focales.
-        .row.r8.bg-18.p-1.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema3/icono-05.svg", alt="", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Análisis colectivo de la información para identificar factores de riesgo, prioridades y necesidades en salud ambiental.
-        .row.r8.bg-17.p-1.align-items-center.mb-2(data-aos="fade-down")
+        .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema3/icono-06.svg", alt="", style="width: 60px").m-auto
@@ -90,7 +90,7 @@
           h5 Tabla 3.
           i  Principios del diagnóstico participativo
         .tabla-a.color-acento-contenido.mb-5
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Principio
@@ -124,11 +124,11 @@
 
     p.mb-5(data-aos="fade-down") El diagnóstico participativo en salud ambiental emplea múltiples técnicas adaptadas al contexto cultural, territorial y social de las comunidades. Estas herramientas permiten reconocer los saberes locales, fomentar la reflexión colectiva y generar insumos para la toma de decisiones concertadas. A continuación, se describen algunas de las más utilizadas en Colombia:
     
-    .tarjeta--BG043.p-4.px-lg-5.mb-4
+    .tarjeta--BG043.p-4.px-md-5.px-4.mb-4
       .tarjeta.tarjeta--BG04.p-4.mb-5
         PasosB.color-acento-botones
           .row(titulo="")
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9
               p
                 b Mapas parlantes
               p.mb-3 Son herramientas gráficas construidas colectivamente por los habitantes de una comunidad. Representan el territorio desde la percepción local, señalando elementos relevantes en lo ambiental, social y sanitario. Se denominan “parlantes” porque cada símbolo, trazo o color refleja un significado acordado por quienes los elaboran, convirtiendo el mapa en un relato visual del entorno. Durante su construcción pueden identificarse:
@@ -142,12 +142,12 @@
                   span #[b Recursos valiosos: ] nacimientos de agua, áreas verdes, senderos ecológicos, árboles patrimoniales o sitios culturales. 
 
               p Los mapas parlantes no requieren conocimientos técnicos, y su gran fortaleza radica en que visibilizan lo que para la comunidad es prioritario. Pueden complementarse con sistemas de información geográfica (SIG) o imágenes satelitales para su integración con herramientas institucionales. En Colombia, han sido ampliamente utilizados en procesos liderados por organizaciones comunitarias, alcaldías, los Planes de Intervenciones Colectivas (PIC), el SENA, el Instituto Nacional de Salud y ejercicios de ordenamiento territorial participativo.
-            .col-md-3
+            .col-lg-3.d-lg-flex.d-none
               figure
                 img(src='@/assets/curso/temas/tema3/img-08.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9
               p
                 b Transectos ambientales	
               p.mb-3 Consisten en recorridos planificados por distintas zonas del territorio, con participación de la comunidad y actores técnicos, para observar directamente condiciones ambientales y de salud. Durante el recorrido se identifican aspectos como:
@@ -174,12 +174,12 @@
 
               p Los hallazgos se registran mediante fichas, fotografías, mapas o videos, y posteriormente se analizan en conjunto para priorizar acciones. Esta técnica ayuda a visibilizar situaciones normalizadas (por ejemplo, aguas estancadas o basureros informales) y promueve el diálogo entre saberes locales y técnicos. En Colombia, ha sido implementada en diagnósticos territoriales de salud pública, proyectos de saneamiento básico rural y estrategias intersectoriales de desarrollo local. 
             
-            .col-md-3
+            .col-lg-3.d-lg-flex.d-none
               figure
                 img(src='@/assets/curso/temas/tema3/img-09.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9
               p 
                 b Entrevistas semiestructuradas
               p.mb-3 Son una herramienta cualitativa que recoge testimonios, percepciones y experiencias sobre el entorno y sus problemáticas. Se desarrollan a partir de una guía flexible de preguntas abiertas, permitiendo profundizar en temas relevantes que surjan durante el diálogo. Se aplican a diversos actores:     
@@ -210,12 +210,12 @@
                     | Relación con instituciones, participación social y propuestas de mejora.
                 p.mb-0 En Colombia, esta técnica es común en proyectos del Ministerio de Salud, Instituto Nacional de Salud, estrategias PIC y procesos liderados por el SENA.
               
-            .col-md-3
+            .col-lg-3.d-lg-flex.d-none
               figure
                 img(src='@/assets/curso/temas/tema3/img-10.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9
               p 
                 b Talleres participativos y mesas comunitarias
               p.mb-3 Estos espacios permiten la deliberación colectiva entre comunidad e instituciones para analizar problemas, construir propuestas y fomentar el empoderamiento social. Incluyen metodologías activas como:
@@ -242,12 +242,12 @@
                     | Establecer compromisos y fortalecer la vigilancia comunitaria.
                 p.mb-0 En Colombia, han sido integrados en estrategias del PIC, programas del Ministerio de Salud, planes de gestión del riesgo y mesas de salud ambiental, respaldados por normativas como la Ley 134 de 1994 y la Ley 1757 de 2015.
               
-            .col-md-3
+            .col-lg-3.d-lg-flex.d-none
               figure
                 img(src='@/assets/curso/temas/tema3/img-11.png', alt='Texto que describa la imagen')
 
           .row(titulo="")
-            .col-md-9.mb-4.mb-md-0
+            .col-lg-9
               p 
                 b Observación directa
               p.mb-3 Es una técnica que permite documentar las condiciones reales del entorno mediante la experiencia directa del observador, con enfoque estructurado o no estructurado. Aspectos observables:
@@ -266,7 +266,7 @@
                   | Deterioro de zonas verdes, contaminación visual o auditiva.
                 p.mb-0 Es útil para complementar y validar otras técnicas como entrevistas o talleres, y ayuda a identificar riesgos naturalizados por la comunidad. En Colombia, se ha utilizado en procesos de inspección sanitaria, diagnósticos ambientales comunitarios y formación en salud pública territorial, con respaldo del Ministerio de Salud y el Instituto Nacional de Salud.
                 
-            .col-md-3
+            .col-lg-3.d-lg-flex.d-none
               figure
                 img(src='@/assets/curso/temas/tema3/img-12.png', alt='Texto que describa la imagen')
 
@@ -313,7 +313,7 @@
                       i.fas.fa-leaf
                       | Respaldar las decisiones con evidencias, asegurando que la elección final tenga fundamento en la información obtenida.
             
-            .row.justify-content-center
+            .row.justify-content-center.align-items-center
               .col-auto.d-none.d-lg-block.order-lg-1.order-2.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema3/icono-08.svg' alt="Imagen decorativa")
@@ -337,7 +337,7 @@
           h5 Tabla 4.
           i Herramientas útiles para la información
         .tabla-a.color-acento-contenido.mb-5
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr(data-aos="fade-right")
                 th(style="background-color: #E0F6E1") Herramienta

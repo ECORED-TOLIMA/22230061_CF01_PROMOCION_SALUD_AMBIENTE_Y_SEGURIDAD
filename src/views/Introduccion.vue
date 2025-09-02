@@ -14,7 +14,7 @@
         p La salud ambiental y sanitaria en la comunidad está determinada por múltiples factores que van más allá de la atención médica. Las condiciones del entorno, los determinantes sociales, el acceso a servicios básicos y las dinámicas comunitarias inciden directamente en el bienestar de la población. 
         .tarjeta.tarjeta--BGC02.p-3(style="background-color:#E0F6E1; border-radius:none !important")
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-3
+            .col-lg-2.col-4.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/introduccion/img-01.svg', alt='Imagen decorativa')
             .col-lg-10

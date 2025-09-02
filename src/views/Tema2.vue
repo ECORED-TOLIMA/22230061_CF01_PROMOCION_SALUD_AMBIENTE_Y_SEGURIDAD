@@ -113,7 +113,7 @@
       h2 2.2 Análisis de situaciones de salud pública en el territorio
 
     .bg-c1.px-md-5.px-4
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-5
         .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
           p El análisis de salud pública en un territorio debe partir de la identificación de los Determinantes Sociales de la Salud (DSS), ya que estos explican en gran medida las diferencias en la carga de enfermedad, el acceso a servicios y la capacidad de respuesta comunitaria.
           p En contextos como zonas rurales, periferias urbanas o territorios afectados por conflicto armado, los determinantes sociales tienden a combinarse y acumularse, generando escenarios de alta vulnerabilidad sanitaria.
@@ -127,7 +127,7 @@
           h5 Tabla 2.
           i  Principales determinantes sociales de la salud en Colombia
         .tabla-a.color-acento-contenido.mb-5
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Determinante
@@ -186,10 +186,10 @@
                 td Hábitos como el consumo de sustancias psicoactivas, el sedentarismo o el uso adecuado de servicios de salud inciden en el bienestar.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-lg-8.order-lg-2.order-2.mb-lg-0
+      .col-lg-8.order-2
         p En zonas rurales de Colombia, estudios del Ministerio de Salud han evidenciado que la falta de acceso a agua potable y servicios sanitarios adecuados se relaciona con altos índices de enfermedades gastrointestinales en niños menores de 5 años.
         p.mb-0 Este tipo de situaciones demuestra cómo los determinantes sociales y ambientales influyen directamente en los resultados de salud. Por ello, es fundamental que las estrategias de promoción, prevención y atención en salud incluyan acciones intersectoriales que mejoren las condiciones de vida de las comunidades, con especial atención en las poblaciones más vulnerables.
-      .col-lg-4.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3
+      .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img-03.png', alt='Imagen decorativa')
 

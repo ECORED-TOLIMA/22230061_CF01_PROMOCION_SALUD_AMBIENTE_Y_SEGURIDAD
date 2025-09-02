@@ -16,7 +16,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img-01.png', alt='Imagen decorativa')
     
-    .row.mb-4(data-aos="fade-left")
+    .row.align-items-center.mb-4(data-aos="fade-left")
       .col-1.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema4/img-15.svg' alt="Imagen decorativa")
@@ -112,24 +112,24 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p(style="color:#000") Si en un diagnóstico comunitario una vereda obtiene una vulnerabilidad “Alta” (puntaje 3) y alta exposición a un contaminante, se prioriza para acciones inmediatas como provisión de agua segura, control de vectores y capacitación comunitaria.
         p.mb-4(style="color:#000") En Colombia, el uso de escalas de valoración está incorporado en metodologías oficiales como:              
-        .row.r8.bg-17.p-2.align-items-center.mb-2
+        .row.align-items-center.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema4/icono-04.svg", alt="", style="width: 70px").m-auto
           .col-lg-10
-            p Sistema Nacional de Gestión del Riesgo de Desastres (SNGRD).
-        .row.r8.bg-18.p-2.align-items-center.mb-2
+            p.mb-0 Sistema Nacional de Gestión del Riesgo de Desastres (SNGRD).
+        .row.align-items-center.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema4/icono-05.svg", alt="", style="width: 70px").m-auto
           .col-lg-10
-            p Planes Territoriales de Salud Ambiental (PTSA).
-        .row.r8.bg-17.p-2.align-items-center.mb-4
+            p.mb-0 Planes Territoriales de Salud Ambiental (PTSA).
+        .row.align-items-center.r8.bg-17.p-lg-2.p-4.align-items-center.mb-4
           .col-lg-2.d-lg-block.d-none
             figure
               img(src="@/assets/curso/temas/tema4/icono-06.svg", alt="", style="width: 70px").m-auto
           .col-lg-10
-            p Programas del Ministerio de Salud, el Instituto Nacional de Salud (INS) y las Corporaciones Autónomas Regionales (CAR).
+            p.mb-0 Programas del Ministerio de Salud, el Instituto Nacional de Salud (INS) y las Corporaciones Autónomas Regionales (CAR).
 
         p(style="color:#000") Estas escalas son útiles no solo para técnicos, sino también para líderes comunitarios, porque traducen la información técnica en un lenguaje claro, fomentando la participación, la vigilancia ciudadana y el seguimiento de planes de acción.
 
@@ -221,25 +221,23 @@
 
     p.mb-4(data-aos="fade-down") En este punto es importante aplicar un caso práctico, utilizando la matriz semicuantitativa. Por ejemplo: 
 
-    .row.justify-content-center.mb-4(data-aos="zoom-in-down") 
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")         
       .col-lg-10(data-aos="fade-right")
-        .bg-color-2.px-4.py-3.mb-4
-          .row.justify-content-center.align-items-center
-            .col-auto
-              figure
-                img(src='@/assets/curso/temas/tema4/icono-14.svg' alt='', data-aos="zoom-in", style="width: 100px;").mx-auto.mx-lg-0
-            .col
-              p.mb-0(data-aos="fade-up") En una vereda rural se detecta un botadero de basuras a cielo abierto, cercano a una escuela y viviendas. Se busca valorar el riesgo de enfermedades transmitidas por vectores (mosquitos y roedores). 
-
+        .tarjeta-avatar-b.mb-4
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema4/icono-14.svg' alt='Imagen decorativa')
+          .tarjeta.BGR01.p-4
+            p.ms-5.mb-0 En una vereda rural se detecta un botadero de basuras a cielo abierto, cercano a una escuela y viviendas. Se busca valorar el riesgo de enfermedades transmitidas por vectores (mosquitos y roedores). 
+    
     p.mb-4(data-aos="fade-down") A partir de la información recopilada, el primer paso consiste en establecer la probabilidad de ocurrencia del evento:
 
     .row.justify-content-center.mb-4
-      .col-lg-10(data-aos="fade-down")
+      .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 6.
           i Escala de probabilidad de la comunidad
         .tabla-a.color-acento-contenido.mb-4
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Probabilidad
@@ -262,12 +260,12 @@
     p.mb-4(data-aos="fade-down") El siguiente paso es determinar el nivel de afectación que tendría el evento:
 
     .row.justify-content-center.mb-4
-      .col-lg-10(data-aos="fade-down")
+      .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 7.
           i Escala de impacto en la comunidad
         .tabla-a.color-acento-contenido.mb-4
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Impacto
@@ -359,7 +357,7 @@
 
     p(data-aos="fade-down") Para su elaboración pueden utilizarse diversas fuentes de información:
 
-    .row.mb-4(data-aos="fade-down")
+    .row.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#E0F6E1")
         .row.justify-content-center.mb-3
           .col-4
@@ -385,7 +383,7 @@
         p.text-center.mb-0 Información local aportada por la comunidad y actores del territorio.
 
     p(data-aos="fade-down") Los mapas de riesgo participativos tienen un valor pedagógico y político especial: permiten que la comunidad reconozca su territorio, identifique amenazas, priorice acciones y exija respuestas institucionales. Pueden elaborarse de manera análoga (en cartulina, con símbolos y leyendas locales) o digital, empleando herramientas como Google Earth, QGIS, la plataforma “Mapa Participativo Colombia” del DNP, o los SIG municipales.
-    p.mb-4(data-aos="fade-down") Ejemplo práctico:
+    p.mb-5(data-aos="fade-down") Ejemplo práctico:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-10
@@ -435,12 +433,12 @@
               img(src='@/assets/curso/temas/tema4/img-13.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-4
-      .col-lg-10(data-aos="fade-down")
+      .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 8.
           i Herramientas digitales y analógicas para la elaboración de mapas de riesgo
         .tabla-a.color-acento-contenido.mb-4
-          table(data-aos="zoom-in"  alt="")
+          table
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 25%") Impacto
