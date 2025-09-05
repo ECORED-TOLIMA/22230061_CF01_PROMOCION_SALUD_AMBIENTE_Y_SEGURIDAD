@@ -179,8 +179,8 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-05.png", alt="")
           .crd_hover_txt--body
-            h5.t1.mb-3 Ley 1751 de 2015 - Ley Estatutaria de Salud
-            h5.t2.mb-2 Ley 1751 de 2015 - Ley Estatutaria de Salud
+            h5.t1.mb-3 NTC 5667 - Norma Técnica Colombiana
+            h5.t2.mb-2 NTC 5667 - Norma Técnica Colombiana
             p.mb-0 Emitida por ICONTEC, establece directrices para el muestreo y monitoreo de aguas superficiales, residuales y subterráneas. Es esencial para la vigilancia de la calidad del agua y el control sanitario.
       
       .col-xl-4.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
