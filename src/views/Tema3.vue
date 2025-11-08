@@ -28,31 +28,31 @@
         .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="", style="width: 60px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-02.svg", alt="Imagen decorativa", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Identificación del territorio y delimitación del área de intervención.
         .row.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="", style="width: 60px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-03.svg", alt="Imagen decorativa", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Reconocimiento de actores locales, incluyendo líderes comunitarios, instituciones, organizaciones sociales y población en general.
         .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-04.svg", alt="", style="width: 60px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-04.svg", alt="Imagen decorativa", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Recolección de información a través de herramientas como mapas parlantes, líneas de tiempo, observación directa, encuestas, entrevistas y grupos focales.
         .row.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-05.svg", alt="", style="width: 60px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-05.svg", alt="Imagen decorativa", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Análisis colectivo de la información para identificar factores de riesgo, prioridades y necesidades en salud ambiental.
         .row.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2(data-aos="fade-down")
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema3/icono-06.svg", alt="", style="width: 60px").m-auto
+              img(src="@/assets/curso/temas/tema3/icono-06.svg", alt="Imagen decorativa", style="width: 60px").m-auto
           .col-lg-10
             p.mb-0 Formulación de propuestas para el manejo, mitigación o eliminación de riesgos identificados.
 

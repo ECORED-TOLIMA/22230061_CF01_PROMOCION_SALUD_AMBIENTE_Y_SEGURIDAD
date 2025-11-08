@@ -34,28 +34,28 @@
       .row.justify-content-center.mb-4
         .col-lg-5.mb-4(data-aos="zoom-in-up")
           .tarjeta.custom-image-card.bg-color-3.p-3
-            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-02.png" alt="")
+            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-02.png" alt="Imagen decorativa")
             .custom-image-card__text.p-4
               h3.mb-3.text-center.titulo-1 Exposición
               p.mb-0 Grado de contacto de una población o ecosistema con el agente de riesgo. Por ejemplo, familias que cocinan con leña en espacios cerrados, comunidades que consumen agua de ríos contaminados, trabajadores expuestos a agroquímicos.
         
         .col-lg-5.mb-4(data-aos="zoom-in")
           .tarjeta.custom-image-card.bg-color-3.p-3
-            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-03.png" alt="")
+            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-03.png" alt="Imagen decorativa")
             .custom-image-card__text.p-4
               h3.mb-3.text-center.titulo-1 Vulnerabilidad
               p.mb-0 Condiciones físicas, sociales o económicas que aumentan la susceptibilidad al daño. Por ejemplo, asentamientos informales sin acceso a agua potable o alcantarillado.
         
         .col-lg-5.mb-4(data-aos="zoom-in")
           .tarjeta.custom-image-card.bg-color-3.p-3
-            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-04.png" alt="")
+            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-04.png" alt="Imagen decorativa")
             .custom-image-card__text.p-4
               h3.mb-3.text-center.titulo-1 Sensibilidad
               p.mb-0 Capacidad de respuesta biológica o social frente al riesgo. Por ejemplo, niños, adultos mayores o personas con enfermedades respiratorias previas.
 
         .col-lg-5.mb-4(data-aos="zoom-in")
           .tarjeta.custom-image-card.bg-color-3.p-3
-            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-05.png" alt="")
+            img.custom-image-card__image(src="@/assets/curso/temas/tema4/img-05.png" alt="Imagen decorativa")
             .custom-image-card__text.p-4
               h3.mb-3.text-center.titulo-1 Resiliencia
               p.mb-0 Habilidad del territorio o comunidad para afrontar, adaptarse y recuperarse tras un evento adverso. Por ejemplo, comunidades con planes de emergencia comunitarios y redes de apoyo activas.
@@ -89,7 +89,7 @@
           h5 Tabla 5.
           i  Escala para vulnerabilidad
         .tabla-a.color-acento-contenido.mb-5
-          table(data-aos="zoom-in"  alt="")
+          table(data-aos="zoom-in"  alt="Imagen decorativa")
             thead
               tr
                 th(data-aos="fade-down")(style= "background-color: #E0F6E1; width: 15%") Nivel
@@ -116,19 +116,19 @@
         .row.align-items-center.r8.bg-17.p-lg-2.p-4.align-items-center.mb-2
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema4/icono-04.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema4/icono-04.svg", alt="Imagen decorativa", style="width: 70px").m-auto
           .col-lg-10
             p.mb-0 Sistema Nacional de Gestión del Riesgo de Desastres (SNGRD).
         .row.align-items-center.r8.bg-18.p-lg-2.p-4.align-items-center.mb-2
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema4/icono-05.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema4/icono-05.svg", alt="Imagen decorativa", style="width: 70px").m-auto
           .col-lg-10
             p.mb-0 Planes Territoriales de Salud Ambiental (PTSA).
         .row.align-items-center.r8.bg-17.p-lg-2.p-4.align-items-center.mb-4
           .col-lg-2.d-lg-block.d-none
             figure
-              img(src="@/assets/curso/temas/tema4/icono-06.svg", alt="", style="width: 70px").m-auto
+              img(src="@/assets/curso/temas/tema4/icono-06.svg", alt="Imagen decorativa", style="width: 70px").m-auto
           .col-lg-10
             p.mb-0 Programas del Ministerio de Salud, el Instituto Nacional de Salud (INS) y las Corporaciones Autónomas Regionales (CAR).
 
@@ -150,7 +150,7 @@
           .row.justify-content-center.align-items-center
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema4/icono-07.svg', alt='', data-aos="zoom-in", style="width: 70px;").mx-auto.mx-lg-0
+                img(src='@/assets/curso/temas/tema4/icono-07.svg', alt='Imagen decorativa', data-aos="zoom-in", style="width: 70px;").mx-auto.mx-lg-0
             .col
               p.mb-0(data-aos="fade-up") #[b Probabilidad de ocurrencia:] qué tan posible es que el evento suceda.
 
@@ -159,7 +159,7 @@
           .row.justify-content-center.align-items-center
             .col-auto
               figure
-                img(src='@/assets/curso/temas/tema4/icono-08.svg', alt='', data-aos="zoom-in", style="width: 70px;").mx-auto.mx-lg-0
+                img(src='@/assets/curso/temas/tema4/icono-08.svg', alt='Imagen decorativa', data-aos="zoom-in", style="width: 70px;").mx-auto.mx-lg-0
             .col
               p.mb-0(data-aos="fade-up") #[b Impacto o severidad:] qué tan graves serían las consecuencias para la salud y el ambiente.
 
@@ -171,7 +171,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-07.svg", alt="")
+              img(src="@/assets/curso/temas/tema4/img-07.svg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 Cualitativas
             h5.t2.mb-2 Cualitativas
@@ -191,7 +191,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-08.svg", alt="")
+              img(src="@/assets/curso/temas/tema4/img-08.svg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 Semicuantitativas
             h5.t2.mb-2 Semicuantitativas
@@ -208,7 +208,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-09.svg", alt="")
+              img(src="@/assets/curso/temas/tema4/img-09.svg", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 Cuantitativas
             h5.t2.mb-2 Cuantitativas

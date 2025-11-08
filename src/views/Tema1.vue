@@ -90,7 +90,7 @@
         p(style="color:#000") El marco normativo colombiano establece una estructura legal sólida para la protección del ambiente y la promoción de la salud pública, con base en los principios de sostenibilidad, equidad, prevención del riesgo y participación social. Estas normas y políticas definen responsabilidades institucionales, fijan estándares sanitarios y orientan las acciones intersectoriales en los territorios.
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/icono-14.svg' alt='')
+            img(src='@/assets/curso/temas/tema1/icono-14.svg' alt='Imagen decorativa')
           .tarjeta.color-primario(style="background-color:#CCD9F8")
             .p-3
               p.mb-0 La Constitución Política de 1991, en su artículo 79, reconoce el derecho de todas las personas a gozar de un ambiente sano y el deber del Estado de proteger la diversidad, prevenir su deterioro y garantizar su conservación. Este principio se complementa con el artículo 49, que establece la salud como un servicio público a cargo del Estado y un derecho de obligatorio cumplimiento. Ambas disposiciones sustentan la acción estatal y comunitaria en salud ambiental.
@@ -153,7 +153,7 @@
       .col-lg-10.col-md-10.col-12
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/icono-13.svg' alt='')
+            img(src='@/assets/curso/temas/tema1/icono-13.svg' alt='Imagen decorativa')
           .tarjeta.color-primario(style="background-color:#CCD9F8")
             .p-4
               p.mb-0 Política Nacional de Salud Ambiental (PNSA): adoptada en 2008 y actualizada en el Plan Decenal de Salud Pública (PDSP), promueve una gestión intersectorial de los riesgos, con enfoque diferencial, territorial y participativo. Estimula la formulación de planes territoriales, la comunicación del riesgo y la educación ambiental comunitaria.
@@ -166,7 +166,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-04.png", alt="")
+              img(src="@/assets/curso/temas/tema1/img-04.png", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 Ley 1751 de 2015 - Ley Estatutaria de Salud
             h5.t2.mb-2 Ley 1751 de 2015 - Ley Estatutaria de Salud
@@ -177,7 +177,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-05.png", alt="")
+              img(src="@/assets/curso/temas/tema1/img-05.png", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 NTC 5667 - Norma Técnica Colombiana
             h5.t2.mb-2 NTC 5667 - Norma Técnica Colombiana
@@ -188,7 +188,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img-06.png", alt="")
+              img(src="@/assets/curso/temas/tema1/img-06.png", alt="Imagen decorativa")
           .crd_hover_txt--body
             h5.t1.mb-3 Protocolos del INS e IDEAM
             h5.t2.mb-2 Protocolos del INS e IDEAM

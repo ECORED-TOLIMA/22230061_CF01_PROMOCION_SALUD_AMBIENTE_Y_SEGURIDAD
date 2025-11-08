@@ -70,7 +70,7 @@
       .col-lg-10
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema2/icono-07.svg' alt='')
+            img(src='@/assets/curso/temas/tema2/icono-07.svg' alt='Imagen decorativa')
           .tarjeta.color-primario(style="background-color:#CCD9F8")
             .p-4
               p.mb-0 En Colombia, un estudio del Departamento Administrativo Nacional de Estadística (DANE, 2023) indicó que el 14,4 % de los hogares no cuenta con acceso a servicios de acueducto y el 20,7 % carece de saneamiento básico. Esta situación se refleja en que las enfermedades gastrointestinales siguen siendo una de las principales causas de morbilidad infantil en zonas rurales.
